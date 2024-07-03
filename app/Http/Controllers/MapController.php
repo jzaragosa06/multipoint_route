@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Log;
 
 class MapController extends Controller
 {
-    const API_KEY = '5b3ce3597851110001cf62489b1624318e3243c4b5a634a0b1fa633a';
+    const API_KEY = 'YOUR API GOES HERE';
     const MAX_NUM_OF_COORDS = 30;
 
 
