@@ -64,3 +64,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## How to run this code. 
+in order to get all the dependencies (since the vendor folder is not uploaded), run 
+-composer update
+-composer install
+
+Obtain API key from OpenRouteService[https://openrouteservice.org/]
+and paste it on MapController. 
