@@ -1,31 +1,23 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Multipoint Route Planner
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Description
 
-## About Laravel
+This is a web application developed using the Laravel framework. It allows the user to find the optimal route on multiple destinations.
+This web app uses Direction Application Programming Interface (API) from OpenRouteService [https://openrouteservice.org/]
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Installation
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-
-## How to run this code. 
-in order to get all the dependencies (since the vendor folder is not uploaded), run 
--composer update
--composer install
+in order to get all the dependencies (since the vendor folder is not uploaded), run
+`composer update`
+`composer install`
 
 Obtain API key from OpenRouteService[https://openrouteservice.org/]
-and paste it on MapController. 
+and paste it on MapController.
+
+# Run this code
+
+Create a database named 'routeplanner_db'. Run the migration to create the database schema.
+`php artisan migrate`
+Navigate to the directory of the project. In the terminal, run
+`php artisan serve `
+Navigate to your browser. The web application can now be accessed on localhost:8000.
