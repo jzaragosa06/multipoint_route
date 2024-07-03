@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a web application developed using the Laravel framework. It allows the user to find the optimal route on multiple destinations.
+This is a web application developed using the Laravel framework. It allows the user to find the optimal route on multiple destinations. Additionally, using MySQL as the database management, this web app implements a database for storign routes of specific user. 
 This web app uses Direction Application Programming Interface (API) from OpenRouteService [https://openrouteservice.org/]
 
 ## Installation
