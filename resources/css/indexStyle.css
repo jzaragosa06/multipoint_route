@@ -1,0 +1,23 @@
+  body {
+      margin: 0;
+      padding: 0;
+  }
+
+  .navbar {
+      background-color: #006666;
+  }
+
+  .navbar-brand {
+      color: white;
+      font-weight: bold;
+  }
+
+  .navbar-nav .nav-link {
+      color: white;
+  }
+
+  .content {
+      display: flex;
+      height: calc(100vh - 56px);
+      /* Full height minus navbar height */
+  }
