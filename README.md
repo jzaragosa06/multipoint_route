@@ -21,3 +21,9 @@ Create a database named 'routeplanner_db'. Run the migration to create the datab
 Navigate to the directory of the project. In the terminal, run
 `php artisan serve `
 Navigate to your browser. The web application can now be accessed on localhost:8000.
+
+
+## License
+
+This project contains code licensed under the MIT License.
+See the LICENSE file for more information.
