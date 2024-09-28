@@ -1,3 +1,6 @@
+# Copyright (c) [Year] [Author Name]
+# Licensed under the MIT License. See the LICENSE file for more details.
+
 <!DOCTYPE html>
 <html lang="en">
 
